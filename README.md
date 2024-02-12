@@ -58,7 +58,8 @@ HeatMap:
 
 ![](figures/heatMapPlot.png)
 
-This heat map shows that there are no clear differences between the groups of the 12 and 18 months, but there is a slight difference of these with respecto to the group of six months. This could mean that the differences in the gene expression between young mice and adult mice is greater than the difference in the groups of two adult mice groups. That is, the older you get, the less your expression profile changes.
+This heat map shows that there are no clear differences between the groups of the 12 and 18 months, but there is a slight difference of these with respect to the group of six months. This could mean that the differences in the gene expression between young mice and adult mice is greater than the difference in the groups of two adult mice groups. That is, the older you get, the less your expression profile changes.
 
 ## Conclusion
-
+In this project, we used the tools available at Bioconductor, as well as the skills developed during the course, to re-analyise a public dataset following the protocol of a differential expression analysis. This work suggested that there are slight differences in the kedney gene expression of mouse due to the maturing process. Particularly, we observed that the three most significant results in the volcano plot correspond to proteins belonging to the inmunoglobulin superfamily, giving raise to a set of interesting biological questions about the role of the immune system in the maturing process and *vice versa*.
+This is an example of the power of a differential expression analysis, serving as a hypotheses generator, setting the guidelines for a series of data driven studies aimed to reveal the biology behind the results we observe in the computer.
