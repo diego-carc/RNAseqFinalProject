@@ -58,8 +58,14 @@ HeatMap:
 
 ![](figures/heatMapPlot.png)
 
-This heat map shows that there are no clear differences between the groups of the 12 and 18 months, but there is a slight difference of these with respect to the group of six months. This could mean that the differences in the gene expression between young mice and adult mice is greater than the difference in the groups of two adult mice groups. That is, the older you get, the less your expression profile changes.
+In the heatmap we can not observe a clear separation of the three age groups. However, we can identify that the group of six moths tend to be clusered appart from the twwo other groups. There is no clear differences between the groups of the 12 and 18 months, but there is a slight difference of these with respect to the group of six months. This could mean that the differences in the gene expression between young mice and adult mice is greater than the difference in the groups of two adult mice groups. That is, the older you get, the less your expression profile changes.
+Also, the variable of sex does not appear to have a great influence 
 
 ## Conclusion
 In this project, we used the tools available at Bioconductor, as well as the skills developed during the course, to re-analyise a public dataset following the protocol of a differential expression analysis. This work suggested that there are slight differences in the kedney gene expression of mouse due to the maturing process. Particularly, we observed that the three most significant results in the volcano plot correspond to proteins belonging to the inmunoglobulin superfamily, giving raise to a set of interesting biological questions about the role of the immune system in the maturing process and *vice versa*.
 This is an example of the power of a differential expression analysis, serving as a hypotheses generator, setting the guidelines for a series of data driven studies aimed to reveal the biology behind the results we observe in the computer.
+
+## References
+The content of the abovementioned course is available [here.](https://lcolladotor.github.io/rnaseq_LCG-UNAM_2024/index.html#code-of-conduct)
+
+Spetial thanks to [A Bioconductor-style differential expression analysis powered by SPEAQeasy](https://research.libd.org/SPEAQeasyWorkshop2023/articles/SPEAQeasyWorkshop2023.html#differential-expression-analysis)
