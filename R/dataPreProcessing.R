@@ -52,4 +52,18 @@ saveRDS(rse_gene_SRP165875_filt, "../data/rse_gene_SRP165875_norm.RDS")
 writeLines(capture.output(session_info()), "../doc/dataPreProcessing_session_info.txt")
 
 
+### Plot data distribution
+data <- data.frame(counts = as.vector(assays(rse_gene_SRP165875_filt)$counts))
+ggplot(data, aes(x = counts)) +
+  geom_histogram(aes(y = ..density..), colour = "darkgray", fill = "lightgray") +
+  binwi
+  geom_density(fill = "#69b3a2", alpha = 0.3) +
+  labs(x = "raw counts", y = "Frecuency") +
+  theme(plot.margin = unit(c(2.5, 5, 2.5, 5), "cm"))
 
+filt_logcounts_data <- data.frame(logcounts = as.vector(assays(rse_gene_SRP165875_filt)$logcounts))
+ggplot(filt_logcounts_data, aes(x = logcounts)) +
+  geom_histogram(aes(y = ..density..), colour = "darkgray", fill = "lightgray") +
+  geom_density(fill = "#69b3a2", alpha = 0.3) +
+  labs(x = "log(CPM+0.5)", y = "Frecuency") +
+  theme(plot.margin = unit(c(2.5, 5, 2.5, 5), "cm"))
