@@ -1,0 +1,29 @@
+$time_created
+[1] "2024-02-11 19:09:26 CST"
+
+$recount3_version
+          package ondiskversion loadedversion                                                                   path
+recount3 recount3        1.12.0        1.12.0 C:/Users/Diego Carmona Campos/AppData/Local/R/win-library/4.3/recount3
+                                                                     loadedpath attached is_base       date
+recount3 C:/Users/Diego Carmona Campos/AppData/Local/R/win-library/4.3/recount3     TRUE   FALSE 2023-10-24
+               source md5ok                                                       library
+recount3 Bioconductor  TRUE C:/Users/Diego Carmona Campos/AppData/Local/R/win-library/4.3
+
+$project
+[1] "SRP165875"
+
+$project_home
+[1] "data_sources/sra"
+
+$type
+[1] "gene"
+
+$organism
+[1] "mouse"
+
+$annotation
+[1] "gencode_v23"
+
+$recount3_url
+[1] "http://duffel.rail.bio/recount3"
+
